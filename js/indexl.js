@@ -11,7 +11,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('Hi 彭桢熙!|祝你|生日快乐|Happy Birthday！|打开声音|准备好了吗|让我们倒数三个数|3|2|1|');
+      S.UI.simulate('楼馨怡!|祝你|生日快乐|Happy Birthday！|打开声音|准备好了吗|让我们倒数三个数|3|2|1|');
     }
 
     S.Drawing.loop(function () {
